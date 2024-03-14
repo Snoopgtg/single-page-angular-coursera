@@ -11,7 +11,6 @@ function LunchCheckController($scope) {
 
   $scope.validateOrder = function () {
     var messageForDisplay = countMeals($scope.lunchMenu);
-    console.log(messageForDisplay);
     $scope.showMessage = messageForDisplay;
   };
 
